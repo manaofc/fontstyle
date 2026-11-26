@@ -1,0 +1,36 @@
+{
+  "name": "fontstyle",
+  "version": "1.0.0",
+  "description": "Convert text into Unicode font styles (bold, script, fraktur, circled, ...) that work in WhatsApp and anywhere else text is accepted",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./whatsapp": "./whatsapp.js"
+  },
+  "bin": {
+    "font-style": "bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "whatsapp.js",
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "font",
+    "fonts",
+    "unicode",
+    "fancy-text",
+    "font-style",
+    "whatsapp",
+    "whatsapp-bot"
+  ],
+  "author": "manaofc",
+  "license": "MIT"
+}
